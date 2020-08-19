@@ -12,7 +12,7 @@ a{
 section{
     width: 100%;
     height:95vh;
-    background-image: url(../img/bg-2.jpg);
+    background-image: url(bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -199,7 +199,7 @@ margin: 50px 0px;
    box-shadow: 2px 2px 12px rgba(0,0,0,0.3); 
 
 }
-.box-containerr{
+.box-container{
     display:flex;
     justify-content: space-between;
 }
