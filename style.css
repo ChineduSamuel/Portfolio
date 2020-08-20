@@ -1,3 +1,12 @@
+.header img{
+    float:left;
+    width: 100px;
+    height: 60px;
+    background: #555;
+}
+
+
+
 body{
     background-color: #f6f5f5;
     margin:0px;
@@ -15,14 +24,8 @@ section{
     background-image: url(bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    
-}
-.bg-p{
-    height: 95vh;
-    width: 50px;
-    border:3px 3px solid white;
-}
+    }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -31,17 +34,8 @@ nav{
     background-color: #FFFFFF;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     padding:0px 5%;
-    
 }
 
-
-
-    
-
-.logo{
-    width: 50px;
-    height: 50px;
-}
 nav ul{
     display: flex;
 }
@@ -51,12 +45,10 @@ nav ul li a{
     color:#505050;
     font-size: 15px;
     font-weight: 700;
+    display: inline-flex;
 }
 
-.active{
-    font-weight: bold;
-    color: #2d2a2a;
-}
+
 .text-container p:nth-child(1){
 font-family:Calibri;
 font-weight: bold;
@@ -69,12 +61,12 @@ font-size:27px;
   font-weight: bold;
   letter-spacing: 1px;
   color: #1a1a1a;  
-  font-size: 60px;
+  font-size:60px;
 }
 
 .text-container p:nth-child(3){
     font-family: myriad pro regular;
-    columns: #403e3e;
+    color: #403e3e;
     font-size: 30px;
     line-height: 30px; ;
 }
@@ -119,7 +111,7 @@ button:active{
     border-radius: 20px;
     box-shadow:2px 2px 12px rgba(0,0,0,0.2);
     display: flex;
-    margin:-15% auto 20px auto;
+    margin:-7% auto 20px auto;
     position: relative;
     justify-content: space-evenly;
     align-items: center;
@@ -132,10 +124,11 @@ button:active{
     width: 550px;
 }
 .about-test  p:nth-child(1){
-    columns: #403e3e;
+    color: #403e3e;
     font-family: myriad pro;
     font-weight: bold;
     font-size: 23px;
+    line-height:0px;
 }
 .about-text p:nth-child(2){
     color: #3e3d3d;
@@ -157,7 +150,7 @@ button:active{
     color: #FFFFFF;
     outline: none;
     border:none;
-    font-family: calibri;
+    font-family:calibri;
     background-color: #262525;
 }
 
@@ -172,7 +165,7 @@ button:active{
     font-family: calibri;
     font-weight: bold;
     color: #3e3d3d; 
-    font-size: 30px;
+     font-size: 30px;
     line-height:0px;
 }
 
@@ -190,16 +183,4 @@ button:active{
 .services-text{
 width: 500px;
 margin: 50px 0px;
-}
-.box-1,.box-2,.box-3{
-   width:300px;
-   height:320px;
-   background-repeat: no-repeat;
-   background-size: cover;
-   box-shadow: 2px 2px 12px rgba(0,0,0,0.3); 
-
-}
-.box-container{
-    display:flex;
-    justify-content: space-between;
 }
