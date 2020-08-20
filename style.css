@@ -24,7 +24,9 @@ section{
     background-image: url(bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
     }
+
 
 nav{
     display: flex;
