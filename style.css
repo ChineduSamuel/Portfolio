@@ -47,7 +47,7 @@ nav ul li a{
     color:#505050;
     font-size: 15px;
     font-weight: 700;
-    display: inline-flex;
+    
 }
 
 
@@ -55,7 +55,7 @@ nav ul li a{
 font-family:Calibri;
 font-weight: bold;
 color: #6d6d6d;
-font-size:27px;
+font-size:22px;
 }
 
 .text-container p:nth-child(2){
@@ -70,7 +70,7 @@ font-size:27px;
     font-family: myriad pro regular;
     color: #403e3e;
     font-size: 30px;
-    line-height: 30px; ;
+    line-height: 30px;
 }
 
 .text-container p{
@@ -144,7 +144,7 @@ button:active{
 .about-test p:nth-child(4){
     color: #7e7d7d;
     font-family: calibri;
-    font-size: 16px;
+    font-size: 16px; 
 }
 .about-test button{
     width: 120px;
@@ -163,26 +163,3 @@ button:active{
    
 }
   
-.services-text p:nth-child(1){
-    font-family: calibri;
-    font-weight: bold;
-    color: #3e3d3d; 
-     font-size: 30px;
-    line-height:0px;
-}
-
-.services-text p:nth-child(2){
-    font-family: calibri;
-    font-weight:bold;
-    color: #3e3d3d;
-    font-size: 15px;
-    line-height: 5px;
-}
-.services-text p:nth-child(3){
-    font-family: calibri;
-    color:#7e7d7d;
-}
-.services-text{
-width: 500px;
-margin: 50px 0px;
-}
