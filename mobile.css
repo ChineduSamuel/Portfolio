@@ -1,0 +1,12 @@
+.nav .logo{
+    display: none;
+    text-align: center;
+}
+.nav_links,.nav_links li, .nav_links li a{
+    display: none;
+
+}
+.nav_links li a{
+    padding: 5px;
+
+}
