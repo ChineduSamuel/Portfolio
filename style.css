@@ -209,9 +209,7 @@ footer{
     margin: 20px 0 0 0;
 }
 
-.left .content p{
-    text-align: justify;
-}
+
 
 .left .content .social{
     margin: 20px 0 0 0;
@@ -235,10 +233,7 @@ footer{
 .email{
     background: #111;
 }
-footer p{
-    position:center;
-    
-}
+
 /*------About------*/
 .text-cont p:nth-child(1){
     font-family:calibri;
