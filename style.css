@@ -384,7 +384,8 @@ section{
 }
 
 .btn:hover{
-    background-color: #ae27a3;
+    background-color: #273823;
+    color: #fff;
 }
 @media screen and (max-width:880px){
     .contact-box{
