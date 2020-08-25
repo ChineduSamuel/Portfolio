@@ -10,33 +10,35 @@
 html,body{
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
-    background-color: rgb(36, 36, 201);
+    background-color: rgb(24, 24, 26);
 }
 
 a{
     color: #ffffff;
     text-decoration: none;
 }
-h1,h2,h3{
-    padding-bottom: 5%;
-}
 p{
     margin: 10px 0;
 }
 
-/* Utility Classes */
-.container{
-    margin:auto;
-    max-width: 1100px;
-    overflow:auto;
-    padding: 0 20px;
-}
 
-#navbar{
-    background:  rgb(10, 10, 168);;
+.btn{
+    display: inline-block;
+    font-size: 18px;
     color: #fff;
-    overflow: auto;
-    height: 50px;
+    background: #d3f124a1;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;   
+}
+.btn:hover{
+    background:#fff;
+    color:#7e7d7d
+}
+#navbar{
+    background:  rgb(32, 32, 30);
+    color: #fff;
+    height: 70px;
 }
 #navbar a{
     color: #fff;
@@ -51,6 +53,7 @@ p{
 #navbar ul{
     list-style: none;
     float: right;
+    display: flex;
 }
 
 #navbar ul li{
@@ -62,9 +65,35 @@ p{
     text-align: center;
 }
 #navbar ul li a:hover, #navbar ul li a.current{
-    background: rgb(52, 23, 182);
-    color:#ddd
+    background: rgb(102, 122, 10);
+    color:#ddd;
+    margin: 10px;
+    padding: 10px;
+
 }
+
+/* Showcase*/
+
+#showCase{
+    background: url('img-2.jpg') no-repeat center center/cover;
+    height: 600px;
+
+}
+#showCase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
 
 li, a, button{
     font-family: Arial, Helvetica, sans-serif;
@@ -80,7 +109,7 @@ li, a, button{
 button{
     margin-left: 20px;
     padding: 9px 25px;
-    background-color:rgb(52, 23, 182);
+    background:rgb(102, 97, 69);
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -88,7 +117,8 @@ button{
 }
 
 button:hover{
-    background-color: rgba(23, 4, 68, 0.8);
+    background: rgba(17, 17, 16, 0.8);
+    color: #7e7d7d
 }
 
 
@@ -97,7 +127,7 @@ button:hover{
 /*-------Services*/
  .box-area{
      display:flex;
-     flex-wrap: wrap;
+     /* flex-wrap: wrap; */
      justify-content: center;
      align-items: center;
      margin-bottom: 10%;
@@ -108,7 +138,7 @@ button:hover{
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     width: 300px;
+     width: 24rem;
      height: auto;
      border-radius: 4px;
      background-color: #fff;
@@ -160,11 +190,7 @@ button:hover{
 
 /*--------Footer------*/
 footer{
-    position: relative;
-    bottom:0px;
-    width: 100%;
-    background: rgb(21, 11, 109);
-    color: #fff;
+    color: rgb(253, 247, 247);
     
 }
 .main-content{
@@ -203,7 +229,15 @@ footer{
     transition: 0.3s;
 }
 .left .content .social a span:hover{
-    background: #df0d72;
+    background: #beb5be;
+    color: #111;
+}
+.email{
+    background: #111;
+}
+footer p{
+    position:center;
+    
 }
 /*------About------*/
 .text-cont p:nth-child(1){
@@ -261,8 +295,9 @@ footer{
     color: #403e3e;
     font-family: myriad pro;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 27px;
     line-height: 0px;
+    padding-bottom: 10px;
 }
 .about-text p:nth-child(2){
     color:#3e3d3d;
@@ -276,4 +311,137 @@ footer{
     color:#7e7d7d;
     font-family:calibri;
     font-size:16px ;
+}
+section{
+  color: #fff;
+}
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+#about-info .info-left{
+    float: left;
+    width:50%;
+    min-height: 100%;
+}
+
+/*---------Contact Page--------*/
+
+.contact-box{
+  max-width: 850px;  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+  
+
+}
+.left{
+    height: 100%;
+    background-size: cover;
+} 
+
+.right{
+    padding: 25px 40px;
+}
+
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: rgba(230,230,230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+.field:hover{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+.area{
+    min-height: 150px;
+}
+
+.btn{
+    width: 13rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background:#62a30e;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3%;
+}
+
+.btn:hover{
+    background-color: #ae27a3;
+}
+@media screen and (max-width:880px){
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        height: 200px;
+    }
+}
+
+/*------Potfolio.....*/
+/* Utility Classes */
+.container{
+    margin:auto;
+    max-width: 1100px;
+    overflow:hidden;
+    padding: 0 2rem
+}
+.text-primary{
+    color:rgb(8, 51, 12);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.lead{
+    font-size: 20px;
+}
+.box-area h2{
+    color: white;
+    position: center;
+    align-items: center;
+    top:-40px;
+    padding-right: 40px;
+}
+ 
+.projects-container {
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+    background-color: white;
+   
+}
+
+.projects-container h2 {
+    color: red;
+}
+
+.project-image-contaner {
+    width: 90%;
+}
+
+.project-image-contaner img {
+    width: 100%;
+}
+.copy-copyright-container{
+    text-align: center;
+    padding-bottom: 20px;
 }
