@@ -200,7 +200,7 @@ section{
   }
    
   .projects-container {
-     float: none;
+     display: inline;
       padding: 2%;
       justify-content: space-around;
       background-color: white;
@@ -208,15 +208,15 @@ section{
   }
   
   .projects-container h2 {
-      color: red;
+      color: #403e3e;
   }
   
   .project-image-contaner {
-      width: 90%;
+      width: 100vw;
   }
   
   .project-image-contaner img {
-      width: 100%;
+      width: 100vw;
   }
   .copy-copyright-container{
       text-align: center;
@@ -229,12 +229,12 @@ footer{
     
 }
 .main-content{
-    float: none;
+ width: 100vw;
 }
 .main-content .box{
-    flex-basis: 50%;
-    /* padding: 10px 20px; */
-    width: 100%;
+   float: none;
+    padding: 10px 20px;
+    width: 100vw;
 }
 .box h2{
     font-size: 1.125rem;
@@ -242,26 +242,29 @@ footer{
     text-transform: uppercase;
 }
 .box .content{
-    /* margin: 20px 0 0 0; */
+    margin: 20px 0 0 0;
     float: none;
-    width: 20%;
+    width:100vw;
 }
 
 
 
 .left .content .social{
-    /* margin: 20px 0 0 0; */
+    margin: 20px 0 0 0;
+   float: none;
 }
 .left .content .social a{
-    /* padding: 0 2px; */
+    padding: 0 2px;
+    display: flex;
 }
 .left .content .social a span{
-    width: 40%;   
+    width: 100vw;   
     /* line-height: 40px; */
     text-align: center;
     font-size: 18px;
     border-radius: 5px;
     transition: 0.3s;
+    display: flex;
 }
 .left .content .social a span:hover{
     background: #beb5be;
