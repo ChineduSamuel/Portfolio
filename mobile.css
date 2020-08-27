@@ -2,17 +2,24 @@
     #navbar{
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        
     }
-    #navbar .log{
-        margin-bottom: 1rem;
+    #navbar .logo{
+        margin-bottom: 0.5rem;
         text-align: center;
     }
-    #navbar ul{
+    #navbar ul {
         padding: 0.5rem;
+        justify-content: center;
+        align-content: center;
     }
 
     #showcase .showcase-content{
         top: 110px;
+        
     }
     #about {
         display: block;
@@ -26,9 +33,40 @@
 
     #testimonials  .items {
         display: inline;
+
     }
    
+    .projects-container{
+        flex-direction: column;
+        
+        justify-content: center;
+        align-content: center;
+    }
+    #contact{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .projects-container{
+        display: inline;
+    }
+
+
+    #contact .form .btn{
+        width: 4rem;
+    }
 }
 
 
-
+@media(max-height:568px){
+    .l-heading{
+        font-size: 3rem;
+    }
+    .lead{
+        font-size: 1rem;
+    }
+    #showcase .showcase-content{
+        margin-top: -2rem;
+        top: 140px;
+    }
+}

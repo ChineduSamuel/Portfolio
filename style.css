@@ -30,7 +30,7 @@ p{
 
 
 .text-primary{
-    color: #a5da14;
+    color: #59750a;
 }
 
 .bg-light{
@@ -108,12 +108,17 @@ p{
     color: #fff;
     justify-content: space-between;
     z-index: 1;
-    padding: 1rem;
+    align-content: center;
+    padding:1rem;
+    
+    
+
 }
 
 #navbar ul{
     display: flex;
     align-items: center;
+    list-style: none;
     list-style: none;
 }
 
@@ -134,7 +139,7 @@ p{
 /*----Showcase---*/
 
 #showcase{
-    background:#333 url('macbook.webp') no-repeat center center/cover;
+    background: url('city-1.jpg') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
 }
@@ -275,12 +280,7 @@ footer .copy-copyright-container{
 
 /*------Potfolio.....*/
 
-.container{
-    margin:auto;
-    max-width: 1100px;
-    overflow:hidden;
-    padding: 0 2rem
-}
+
 
 
 .text-center{
@@ -300,8 +300,8 @@ footer .copy-copyright-container{
  
 .projects-container {
     display: flex;
-    padding: 2%;
-    justify-content: space-around;
+    padding: 4%;
+    justify-content: space-between;
     background-color: white;
    
 }
@@ -355,12 +355,18 @@ footer .copy-copyright-container{
 }
 #contact .contact-form input,
 #contact .contact-form textarea{
-    width: 50%;
+    width: 100%;
     padding: 0.5rem;
 
 }
-#contact .btn .contact-form input{
-    width: 50%;
-    background: rgb(51, 85, 18);
+#contact .form .btn {
+    width: 10%;
+    background: rgb(107, 190, 24);
     color: #fff ;
+    text-align: center;
+}
+
+#contact .form .btn:hover{
+background: #3d581e;
+color: #fff;
 }
