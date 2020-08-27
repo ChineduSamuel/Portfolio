@@ -14,6 +14,15 @@
     #showcase .showcase-content{
         top: 110px;
     }
+    #about {
+        display: block;
+    }
+    #about .who-img{
+        display: none;
+    }
+    #what {
+        display: block;
+    }
 }
 
 
