@@ -30,7 +30,7 @@ p{
 
 
 .text-primary{
-    color: #b3ee11;
+    color: #a5da14;
 }
 
 .bg-light{
@@ -48,13 +48,13 @@ p{
 
 
 .l-heading{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
 
 .m-heading{
-    font-size: 1rem;
+    font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
@@ -192,7 +192,7 @@ p{
 }
 #testimonials .items .item img{
     padding: 1rem;
-    width: 24vw;
+    width: 25vw;
     align-items: center;
     border-radius: 50%;}
 
@@ -247,8 +247,7 @@ footer{
 
 footer .copy-copyright-container{
     text-align: center;
-    width: 100%;
-    
+   
 }
 
 
