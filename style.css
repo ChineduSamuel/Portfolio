@@ -175,25 +175,26 @@ p{
     display: flex;
     padding: 1rem;
     width: 1.5rem;
+    
+  
 }
 #testimonials .item{
     flex: 1;
     text-align: center;
     padding: 1rem;
+    
 }
 
 #testimonials .items .item i{
     background: #93cb52;
     padding: 1rem;
-    border-radius: 5%;
+    
 }
 #testimonials .items .item img{
-    background: #252b1e;
     padding: 1rem;
     width: 25vw;
     align-items: center;
-
-}
+    border-radius: 50%;}
 
 
 
@@ -246,6 +247,7 @@ footer{
 
 footer .copy-copyright-container{
     text-align: center;
+    
     
 }
 
