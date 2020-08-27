@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0.75rem;
+}
+
+/* Utility classes */
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+.text-primary{
+    color: #b3ee11;
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    color: #333;
+    background: #ffff;
+}
+    
+   
+
+
+
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+
+.show{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+
+.py-1{ padding: 1.5rem 0;}
+.py-2{ padding: 2rem 0;}
+.py-3{
+     padding: 3rem 0;
+     color: #fff;
+    }
+
+
+.p-1{ padding: 1.5rem;}
+.p-2{ padding: 2rem;}
+.p-3{ padding: 3rem;}
+
+.btn{
+   display: inline-block;
+   color: #fff;
+   background: #93cb52;
+   padding: 0.5rem 2rem;
+   border: none;
+   border-radius: 5px; 
+}
+.btn:hover{
+    background: #3d581e;
+}
+
+.btn-dark{
+    background:#333;
+    color: #fff;
+}
+
+
+/*------Navbar----*/
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background:#333;
+    color: #fff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a{
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+
+}
+
+#navbar ul li a:hover{
+    background: #93cb52;
+    border-radius: 5px;
+}
+
+
+
+/*----Showcase---*/
+
+#showcase{
+    background:#333 url('../img/macbook.webp') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /*----Overlay----*/
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Section: WHat I Do*/
+#what .items{
+    display: flex;
+    padding: 1rem;
+}
+#what .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i{
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+/* Testimonials */
+#testimonials .items{
+    display: flex;
+    padding: 1rem;
+    width: 1.5rem;
+}
+#testimonials .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#testimonials .items .item i{
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 5%;
+}
+#testimonials .items .item img{
+    background: #252b1e;
+    padding: 1rem;
+    width: 25vw;
+    align-items: center;
+
+}
+
+
+
+/*--------Footer------*/
+footer{
+    background-color: rgb(24, 24, 26);
+    color: rgb(253, 247, 247);
+    
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    /* padding: 10px 20px; */
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+
+
+
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+.left .content .social a span{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+    background: #beb5be;
+    color: #111;
+}
+.email{
+    background: #111;
+}
+
+footer .copy-copyright-container{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+/* Section: About Me---*/
+
+#about{
+    display: flex;
+}
+
+#about div{
+    flex: 1;
+}
+
+#about .about-img{
+    background: url('../img/pro-2.jpeg');
+}
