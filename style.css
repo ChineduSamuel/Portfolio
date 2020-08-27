@@ -43,7 +43,10 @@ p{
     background: #ffff;
 }
     
-   
+.bg-primary{
+    background: #2d2e2c;
+    color: #fff;
+}   
 
 
 
@@ -329,4 +332,35 @@ footer .copy-copyright-container{
     .main-content {
         display: block;
     }
+}
+
+/*-------Section: Contact-----*/
+
+#contact{
+    display: flex;
+    align-content: center;
+    
+    
+}
+#contact .map, #contact .contact-form{
+    flex: 1;
+}
+
+#contact .contact-form .form-group{
+    margin:0.75rem;
+}
+
+#contact .contact-form label{
+    display: block;
+}
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 50%;
+    padding: 0.5rem;
+
+}
+#contact .btn .contact-form input{
+    width: 50%;
+    background: rgb(51, 85, 18);
+    color: #fff ;
 }
