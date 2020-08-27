@@ -131,7 +131,7 @@ p{
 /*----Showcase---*/
 
 #showcase{
-    background:#333 url('../img/macbook.webp') no-repeat center center/cover;
+    background:#333 url('macbook.webp') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
 }
@@ -265,5 +265,69 @@ footer .copy-copyright-container{
 }
 
 #about .about-img{
-    background: url('../img/pro-2.jpeg');
+    background: url('pro-2.jpeg');
+}
+
+
+/*------Potfolio.....*/
+
+.container{
+    margin:auto;
+    max-width: 1100px;
+    overflow:hidden;
+    padding: 0 2rem
+}
+.text-primary{
+    color:rgb(8, 51, 12);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.lead{
+    font-size: 20px;
+}
+.box-area h2{
+    color: white;
+    position: center;
+    align-items: center;
+    top:-40px;
+    padding-right: 40px;
+}
+ 
+.projects-container {
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+    background-color: white;
+   
+}
+
+.projects-container h2 {
+    color: #3e3d3d;
+}
+
+.project-image-contaner {
+    width: 90%;
+}
+
+.project-image-contaner img {
+    width: 100%;
+}
+
+.project-image-contaner img:hover {
+    width: 100%;
+    color: #fff;
+    transition: 0.2rem;
+}
+.copy-copyright-container{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:415px){
+    .main-content {
+        display: block;
+    }
 }
