@@ -20,8 +20,12 @@
     #about .who-img{
         display: none;
     }
-    #what {
-        display: block;
+    #what  .items {
+        display: inline;
+    }
+
+    #testimonials  .items {
+        display: inline;
     }
 }
 
