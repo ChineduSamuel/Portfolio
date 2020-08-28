@@ -54,6 +54,7 @@
 
     #contact .form .btn{
         width: 4rem;
+        align-content: center;
     }
 }
 
