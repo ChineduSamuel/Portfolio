@@ -1,143 +1,140 @@
 <!DOCTYPE html>
-
+ 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <meta name="description" content="">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css"> 
-        <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
-        <link rel="stylesheet" media="screen and (min-width: 1100px)" href="widescreen.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="mobile.css">
         <title>Portfolio | Portfolio</title>
     </head>
-    <body id="home">
+    <body>
         
-    <!---Navbar------>
-        <nav id="navbar">
-           <h1 class="logo">
-               <span class="text-primary">
-                <i class="fa fa-desktop"></i> Chinedu</i>
-                </span>Samuel
-                   </h1>
-                   <ul>
-                       <li><a href="index.html" target="blank">Home</a></li>
-                       <li><a href="about.html" target="blank">About</a></li>
-                       <li><a href="portfolio.html" target="blank">Portfolio</a></li>
-                       <li><a href="contact.html" target="blank">Contact</a></li>
-                       
-                    </ul>
-                 </nav>
-                <!-----Header: Showcase-->
-                <header id="showcase">
-                    <div class="showcase-content">
-                        <h1 class="l-heading">
-                           Portfolio
-                        </h1>
-                        <p class="show">
-                          My recent projects.  
-                        </p>
-                        <a href="Chinedu_Samuel_CV.pdf" class="btn">Hire Me</a>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+
+                        <ul>
+                            <li><a href="index.html" target="blank">Home</a></li>
+                            <li><a href="about.html" target="blank">About</a></li>
+                            <li><a href="portfolio.html" target="blank">Portfolio</a></li>
+                            <li><a href="contact.html" target="blank">Contact</a></li>
+                        </ul>
+
                     </div>
-                </header>
-
-
-               <!--------My Projects------>
-<div class="projects-container">
-    <div class="box">
-        <h2>Portfolio Website</h2>
-        <p>My personal Web page with HTML and CSS only, No Boostrap.</p>
-       <div class="project-image-contaner">
-        <a href="https://chineduportfolio.netlify.app/" target="_blank"><img src="porfolio.PNG"></a>
-       </div>
-    </div>
-    <div class="box"> 
-            <h2>Sign UP form</h2>
-        <p>A simple Form with Javascript Authentification.</p>
-        <div class="project-image-contaner">
-            <a href="https://chinedusignupform.netlify.app/" target="_blank"> <img src="signup.PNG"></a>
-        </div>
-    </div>
-    <div class="box">
-        <h2>Consulting Website</h2>
-        <p>A  Software Consulting and Web Hosting Site.</p>
-        <div class="project-image-contaner">
-            <a target="_blank" href="https://vavot.netlify.app/" target="_blank"> <img src="vavot.PNG"></a>
-        </div>
-    </div>
-</div>
-
-
-
-
-   <!---------Footer-------->
-   <footer>
-    <div class="main-content">
-        <div class="left box">
-            <h2>Social Links</h2>
-            <div class="content">
-                
-           <div class="social">
-               <a href="https://github.com/ChineduSamuel"><span class="fab fa-github"></span></a>
-               <a href="https://twitter.com/devchinedu"><span class="fab fa-twitter"></span></a>
-               <a href="https://www.linkedin.com/in/chinedusamuel747"><span class="fab fa-linkedin"></span></a>
-               <a href="#"><span class="fab fa-instagram"></span></a>
-            </div>
-            </div>
-        </div>
-        <div class="center box">
-            <h2>Address</h2>
-            <div class="content">
-                <div class="place">
-                    <span class="fas fa-map-marker-alt"></span>
-                    <span class="text">Lagos, Nigeria</span>
-
                 </div>
-                <div class="place">
-                    <span class="fas fa-phone-alt"></span>
-                    <span class="text">+2348135398131</span>
-
-                </div>
-                <div class="place">
-                    <span class="fas fa-envelope"></span>
-                    <span class="text">samuelchinedufranklin@gmail.com</spa>
-                    </div>
             </div>
-
         </div>
-    
-        <div class="right box">
-            <h2>News Letter</h2>
-            <div class="content">
-                <form action="#">
-                    <div class="email">
-                        <form name="contact" method="POST" data-netlify="true"></form>
-                        <div class="text">Email * </div>
-                        <input type="eamil" required>
-                    </div>
-                    <div class="mgs">
-                        <div class="text">Message *</div>
-                        <textarea rows="2" cols="25" required></textarea>
+        <header id="showcase">
+            <div class="container showcase-container">
+                <h1>My Projects</h1>
+               
+                <a href="Chinedu_Samuel_CV.pdf" class="btn">Hire Me</a>
+            </div>
+        </header>
 
+    <!--------My Projects------>
+               <div class="projects-container">
+                <div class="box">
+                    <h2>Portfolio Website</h2>
+                    <p>My personal Web page with HTML and CSS only, No Boostrap.</p>
+                   <div class="project-image-contaner">
+                    <a href="https://chineduportfolio.netlify.app/" target="_blank"><img src="porfolio.PNG"></a>
+                   </div>
+                </div>
+                <div class="box"> 
+                        <h2>Sign UP form</h2>
+                    <p>A simple Form with Javascript Authentification.</p>
+                    <div class="project-image-contaner">
+                        <a href="https://chinedusignupform.netlify.app/" target="_blank"> <img src="signup.PNG"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>Consulting Website</h2>
+                    <p>A  Software Consulting and Web Hosting Site.</p>
+                    <div class="project-image-contaner">
+                        <a target="_blank" href="https://vavot.netlify.app/" target="_blank"> <img src="vavot.PNG"></a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+               <!---------Footer-------->
+               <footer>
+                <div class="main-content">
+                    <div class="left box">
+                        <h2>Social Links</h2>
+                        <div class="content">
+                            
+                       <div class="social">
+                           <a href="https://github.com/ChineduSamuel"><span class="fab fa-github"></span></a>
+                           <a href="https://twitter.com/devchinedu"><span class="fab fa-twitter"></span></a>
+                           <a href="https://www.linkedin.com/in/chinedusamuel747"><span class="fab fa-linkedin"></span></a>
+                           <a href="#"><span class="fab fa-instagram"></span></a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="center box">
+                        <h2>Address</h2>
+                        <div class="content">
+                            <div class="place">
+                                <span class="fas fa-map-marker-alt"></span>
+                                <span class="text">Lagos, Nigeria</span>
+            
+                            </div>
+                            <div class="place">
+                                <span class="fas fa-phone-alt"></span>
+                                <span class="text">+2348135398131</span>
+            
+                            </div>
+                            <div class="place">
+                                <span class="fas fa-envelope"></span>
+                                <span class="text">samuelchinedufranklin@gmail.com</spa>
+                                </div>
+                        </div>
+            
                     </div>
                 
-                <div class="btn">
-                    <button type="submit">Send</button>
+                    <div class="right box">
+                        <h2>News Letter</h2>
+                        <div class="content">
+                            <form action="#">
+                                <div class="email">
+                                    <form name="contact" method="POST" data-netlify="true"></form>
+                                    <div class="text">Email * </div>
+                                    <input type="eamil" required>
+                                </div>
+                                <div class="mgs">
+                                    <div class="text">Message *</div>
+                                    <textarea rows="2" cols="25" required></textarea>
+            
+                                </div>
+                            
+                            <div class="btn">
+                                <button type="submit">Send</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+            
+                </div> 
+               
+                <div class="copy-copyright-container">
+                    <p>Chinedu Samuel &copy; 2020. All Right Reserved!</p>
                 </div>
-                </form>
-            </div>
-        </div>
-
-    </div> 
-   
-    <div class="copy-copyright-container">
-        <p>Chinedu Samuel &copy; 2020. All Right Reserved!</p>
-    </div>
-</footer>
-
-
-</body>
-</html>
-
-
+            </footer>
+            
+            
+            </body>
+            </html>
+            
+            
+            
