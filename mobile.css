@@ -12,11 +12,14 @@
         text-align: center;
     }
     #navbar ul {
-        padding: 0.5rem;
+        
         justify-content: center;
         align-content: center;
+        width: 100%;
+        
     }
 
+  
     #showcase .showcase-content{
         top: 110px;
         
@@ -41,6 +44,8 @@
         
         justify-content: center;
         align-content: center;
+        width: 100%;
+        
     }
     #contact{
         width: 100%;
@@ -70,4 +75,16 @@
         margin-top: -2rem;
         top: 140px;
     }
+      
+   footer .main-content .email .content{
+       width: 100%;
+   } 
+
+   .moment{
+       justify-content: center;
+       width: 100%;
+       flex-direction: column;
+       align-items: center;
+   }
+
 }
