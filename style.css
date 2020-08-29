@@ -200,7 +200,7 @@ p{
     
 }
 #testimonials .items .item img{
-    padding: 1rem;
+    padding: 0.5rem;
     width: 25vw;
     align-items: center;
     border-radius: 50%;}
@@ -378,9 +378,12 @@ color: #fff;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+.moment h2{
+top: 50px;
+text-align: center;
+}
 
-
-.item{
+.item2{
     padding: 3rem;
     border: #8aa056 1px solid;
     background: #fff;
