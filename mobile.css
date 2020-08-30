@@ -30,7 +30,7 @@
     #about {
         display: block;
     }
-    #about .who-img{
+    #about .about-img{
         display: none;
     }
     #what  .items {
@@ -64,6 +64,10 @@
         width: 4rem;
         align-content: center;
     }
+    .foot-container{
+        width: 100%;
+        display: block;
+    }
 }
 
 
@@ -78,16 +82,36 @@
         margin-top: -2rem;
         top: 140px;
     }
-      
-   footer .main-content .email .content{
-       width: 100%;
-   } 
-
-   .moment{
+       .moment{
        justify-content: center;
        width: 100%;
        flex-direction: column;
        align-items: center;
    }
 
+}
+@media screen and (max-width:960){
+    .foot-container{
+        max-width: 600px;
+        display: inline-block
+    }
+    .right-col{
+        width: 100%;
+        margin-bottom: 60px;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .left-col{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:700px){
+    .btn{
+        margin:0;
+        width: 100%;
+        margin-top: 20px;
+    }
 }
