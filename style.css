@@ -73,7 +73,7 @@ body{
 }
 
 .btn:hover{
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
 
@@ -249,8 +249,7 @@ p{
     padding: 0.5rem;
     width: 25vw;
     align-items: center;
-    border-radius: 50%;
-}
+    border-radius: 50%;}
 
 
 /* Section: About Me---*/
