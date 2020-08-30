@@ -73,7 +73,7 @@ body{
 }
 
 .btn:hover{
-    /* opacity: 0.7; */
+    opacity: 0.7;
 }
 
 
@@ -230,6 +230,7 @@ p{
     display: flex;
     padding: 1rem;
     width: 1.5rem;
+    width: 100%;
     
   
 }
@@ -363,25 +364,103 @@ color: #fff;
 }
 
 
+/*-----Image Gallery with Grid--*/
+ 
 
-.moment{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-.moment h2{
-top: 50px;
-text-align: center;
-}
+body {
+    
+    width: 100%;
+    background-color: rgb(17, 94, 107);
+  }
 
-.item2{
-    padding: 3rem;
-    border: #8aa056 1px solid;
-    background: #fff;
-    font-size: 1.3rem;
-    font-weight: bold;
+
+
+
+
+.wrapper {
+    width: 90%;
+    max-width: 1300px;
+    margin: 1rem auto;
+  }
+  
+  h1 {
+    margin: 2rem;
     text-align: center;
-}
-
+    color: #f4f4f4;
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+  
+  .img-grid {
+    display: grid;
+    justify-items: center;
+    grid-gap: 0.6rem;
+  }
+    img {
+      max-width: 100%;
+      padding: 0.2rem;
+      border: 1px solid #555;
+    }
+  
+  
+  .btm {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+  }
+    
+    a {
+      color: #777;
+    }
+  
+  
+/* media queries-----*/
+  
+  @media (min-width: 1200px) {
+    .img-grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  
+  @media (min-width: 767px) and (max-width: 1200px) {
+    .img-grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .img-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .img-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 480px) and (max-width: 600px) {
+    .img-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .img-grid {
+      grid-template-columns: 1fr;
+    }
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+  
 
 /*----Footer------------*/
 footer{
