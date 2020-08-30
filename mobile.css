@@ -39,17 +39,18 @@
 
     #testimonials  .items {
         display: inline;
+       
 
     }
-   
+
     .projects-container{
         flex-direction: column;
-        
         justify-content: center;
         align-content: center;
         width: 100%;
         
     }
+    
     #contact{
         width: 100%;
         flex-direction: column;
@@ -64,10 +65,7 @@
         width: 4rem;
         align-content: center;
     }
-    .foot-container{
-        width: 100%;
-        display: block;
-    }
+    
 }
 
 
@@ -89,11 +87,17 @@
        align-items: center;
    }
 
+   .menu-wrap .menu{
+       position: fixed;
+       width: 100%;
+   }
+
 }
-@media screen and (max-width:960){
-    .foot-container{
-        max-width: 600px;
-        display: inline-block
+@media screen and (max-width:500){
+    .footer-container{
+        max-width: 100%;
+        display: inline-block;
+        padding: 0.5rem;
     }
     .right-col{
         width: 100%;
@@ -108,10 +112,12 @@
     }
 }
 
-@media screen and (max-width:700px){
-    .btn{
+@media screen and (max-width:500px){
+    .btnn{
         margin:0;
         width: 100%;
         margin-top: 20px;
+        padding: 0.5rem;
+        
     }
 }

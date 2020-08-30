@@ -235,6 +235,7 @@ p{
 }
 #testimonials .item{
     flex: 1;
+    text-align: center;
     
     
 }
@@ -248,7 +249,8 @@ p{
     padding: 0.5rem;
     width: 25vw;
     align-items: center;
-    border-radius: 50%;}
+    border-radius: 50%;
+}
 
 
 /* Section: About Me---*/
@@ -450,7 +452,7 @@ footer{
     min-width: 260px;
 }
 
-.btn{
+.btnn{
     padding: 10px;
     font-size: 16px;
     color: #f1f1f1;
@@ -463,7 +465,7 @@ footer{
     cursor: pointer;
     transition: opacity .3s linear;
 }
-.btn:hover{
+.btnn:hover{
     opacity: .7;
 }
 
