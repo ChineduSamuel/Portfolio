@@ -65,7 +65,7 @@ body{
     display: inline-block;
     border: none;
     background: var(--primary-color);
-    color: rgb(17, 53, 14);
+    color: rgb(14, 37, 53);
     padding: 0.75rem 1.5rem;
     margin-top: 1rem;
     transition: all 1s ease-in-out;
@@ -101,7 +101,7 @@ p{
 
 
 .text-primary{
-    color: #59750a;
+    color: #0a5c75;
 }
 
 .bg-light{
@@ -155,14 +155,14 @@ p{
 .btn{
    display: inline-block;
    color: #fff;
-   background: #93cb52;
+   background: #52b3cb;
    padding: 0.5rem 2rem;
    border: none;
    border-radius: 5px;
    transition: all ls ease-in-out ; 
 }
 .btn:hover{
-    background: #3d581e;
+    background: #1e4358;
 }
 
 .btn-dark{
@@ -202,7 +202,7 @@ p{
 }
 
 #navbar ul li a:hover{
-    background: #93cb52;
+    background: #528acb;
     border-radius: 5px;
 }
 
@@ -220,7 +220,7 @@ p{
 }
 
 #what .items .item i{
-    background: #93cb52;
+    background: #5291cb;
     padding: 1rem;
     border-radius: 50%;
 }
@@ -242,7 +242,7 @@ p{
 }
 
 #testimonials .items .item i{
-    background: #93cb52;
+    background: #529fcb;
     padding: 1rem;
     
 }
@@ -353,13 +353,13 @@ p{
 }
 #contact .form .btn {
     width: 10%;
-    background: rgb(107, 190, 24);
+    background: rgb(24, 110, 190);
     color: #fff ;
     align-content: center;
 }
 
 #contact .form .btn:hover{
-background: #3d581e;
+background: #1e3758;
 color: #fff;
 }
 
@@ -507,7 +507,7 @@ footer{
 .border{
     width: 100px;
     height: 4px;
-    background: #7e8d56;
+    background: #56708d;
 }
 .newsletter-form{
     display: flex;
@@ -534,7 +534,7 @@ footer{
     padding: 10px;
     font-size: 16px;
     color: #f1f1f1;
-    background: #627740;
+    background: #405a77;
     border: none;
     font-weight: 700;
     outline: none;
