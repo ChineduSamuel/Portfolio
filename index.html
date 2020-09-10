@@ -28,8 +28,8 @@
             <div class="textBx">
                 <h2>Hello, I'm <br><span>Chinedu Samuel.</span></h2>
                 <h3>I'm a Software Developer.</h3>
-                <a href="Chinedu_Samuel_Resume.pdf" target="blank"class="btn">Download CV</a>
-                <a href="#contact" target="blank" class="btn">Hire ME</a>
+                <a href="Chinedu_Samuel_Resume.pdf" target="blank"class="btn">Hire ME</a>
+                <a href="#contact" target="blank" class="btn">Contact Me</a>
             </div>
         </section>
         <section class="about" id="about">
@@ -40,7 +40,7 @@
             <div class="contentBx w50">
                    <h3>I'm a Software Developer</h3>
                    
-                <p> Chinedu Samuel is a junior developer with a solid understanding of HTML advance CSS and Sass. He also have Intermediate knowledge of JavaScript, Nodejs, and React.<br><br> 
+                <p> Chinedu Samuel is a junior developer with a solid understanding of HTML advance CSS and Sass. He also has Intermediate knowledge of JavaScript, Nodejs, and React.<br><br> 
 
                  Chinedu is currently on software Development Internship with <a href="https://www.tiidelab.com/">tiidelab.com.</a> <br>
                  He's an experienced Information Technology Digital Product Sale Officer with a demonstrated history of working in the banking industry. <a href="#">Sterling Bank Plc</a> <br>
@@ -223,7 +223,7 @@
             </div>
         </div>
         <div class="formBx">
-            <form>
+            <form class="form" method="POST" name="Contact Me" data-netlify="true">  
                 <h3>Message Me</h3>
                 <input type="text" name="" placeholder="Full Name">
                 <input type="email" name="" placeholder="Email">
@@ -234,31 +234,33 @@
     </section>
      <!---------Footer-------->
 
-<footer>
-    <div class="footer-container">
-        <div class="left-col">
-            <img src="" alt="" class="">
-            <div class="social-media">
-                <a href="https://github.com/ChineduSamuel"><i class="fab fa-github"></i>
-                <a href="https://www.linkedin.com/in/chinedusamuel747"><i class="fab fa-linkedin"></i>
-                <a href="https://twitter.com/devchinedu"><i class="fab fa-twitter"></i>
-                <a href="#"><i class="fab fa-instagram"></i>
-            </div>
-            <p class="rights-text">&copy; 2020. Created By Chinedu All Rights Reserved.</p>
+   <footer>
+        <div class="footer-container">
+            <div class="left-col">
+                <img src="" alt="" class="footer-logo">
+                 <div class="footer-social">
+                     <a href="#"><i class="fa fa-medium" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                 </div>
+                 </div>
+                 <div class="right-col">
+                     <h1>Subscribe to My Newsletter</h1>
+                     <div class="footer-border"></div>
+                     <p>Enter Your Email Address Here.</p>
+                      <form name="newsletter-form" method="POST" data-netlify="true">
+                         <input type="text" class="news-bx" placeholder="Enter Your Email">
+                         <input type="submit" class="news-btn" value="submit">
+                     </form>
+                 </div>
         </div>
-    <div class="right-col">
-        <h1>Email Newsletter</h1>
-        <div class="border"></div>
-        <p>Enter Your Email to get My News and Updates.</p>
-        <form class="newsletter-form" method="POST" name="Newsletter" data-netlify="true">  
-            <input type="text" class="txtb" placeholder="Enter Your Email">
-            <input type="submit" class="btnn"  value="submit">
-        </form>
-    </div>
 
-    </div>
-</footer>
-    
+   </footer>
+   <div class="copywrite">
+    <p>Chinedu Samuel &copy; 2020. All Right Reserved.</p>
+</div>
     <script src="main.js"></script>
    
 </body>
