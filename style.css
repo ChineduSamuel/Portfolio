@@ -526,10 +526,16 @@ footer{
     .grid-container{
         grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     grid-template-rows: minmax(auto, auto);
+     flex-direction: column;
+     max-width: 100%;
+     
+
     }
     .grid-container .grid-box{
         grid-column: unset!important;
         grid-row: unset!important;
+        padding: 40px 20px;
+        max-width: 100%;
     }
 }
 
